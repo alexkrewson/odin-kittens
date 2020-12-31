@@ -1,0 +1,9 @@
+<%= form_with model: @kitten, local: true do |f|%>
+<%= f.text_area :name %>
+<%= f.text_area :age %>
+<%= f.text_area :cuteness %>
+<%= f.text_area :softness %>
+
+<%= f.submit %>
+
+<% end %>
